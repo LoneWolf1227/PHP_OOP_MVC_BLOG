@@ -1,7 +1,7 @@
 # PHP_OOP_MVC_BLOG
 PHP_OOP_MVC_BLOG
 
-В архитектуре приложения использованы следуюшее
+В архитектуре приложения использованы следующее
 
 1: ORM - Object relation mapping
 
