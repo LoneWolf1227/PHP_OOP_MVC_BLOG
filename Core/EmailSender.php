@@ -31,13 +31,13 @@ class EmailSender
 
         $mail->SMTPAuth = true;
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port = 587;
-        $mail->Host = 'smtp.mail.ru';
-        $mail->Username = 'manalonewolf@mail.ru';
-        $mail->Password = 'HfEkW8#)4$';
+        $mail->Port = ;
+        $mail->Host = '';
+        $mail->Username = '';
+        $mail->Password = '';
 
-        $mail->setFrom('manalonewolf@mail.ru', 'Wolf_Proger');
-        $mail->addReplyTo('manalonewolf@gmail.com', 'First Last');
+        $mail->setFrom('example@mail.com', 'Example Name');
+        $mail->addReplyTo('mexample@gmail.com', 'First Last');
         $mail->addAddress($receiver->getEmail());
 
         $mail->Subject = $subject;
