@@ -36,8 +36,8 @@ class EmailSender
         $mail->Username = '';
         $mail->Password = '';
 
-        $mail->setFrom('manalonewolf@mail.ru', 'Wolf_Proger');
-        $mail->addReplyTo('manalonewolf@gmail.com', 'First Last');
+        $mail->setFrom('example@mail.com', 'Example Name');
+        $mail->addReplyTo('mexample@gmail.com', 'First Last');
         $mail->addAddress($receiver->getEmail());
 
         $mail->Subject = $subject;
